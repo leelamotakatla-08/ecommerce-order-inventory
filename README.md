@@ -1,6 +1,5 @@
 # E-Commerce Order & Inventory Management System
 
-<<<<<<< HEAD
 A full-stack e-commerce application built using **Java, Spring Boot, React, and MySQL**. The application supports product browsing, shopping cart management, checkout, order processing, order tracking, and inventory management.
 
 ## Key Features
@@ -26,6 +25,7 @@ A full-stack e-commerce application built using **Java, Spring Boot, React, and 
 | MySQL | Relational database |
 | Maven | Backend build and dependency management |
 | npm | Frontend package management |
+
 =======
 A full-stack e-commerce application built with **Java, Spring Boot, React, and MySQL**, featuring product browsing, authentication, checkout, and order management.
 
@@ -46,7 +46,7 @@ A full-stack e-commerce application built with **Java, Spring Boot, React, and M
 - **Database:** MySQL
 - **Build Tools:** Maven, npm
 - **Version Control:** Git, GitHub
->>>>>>> 714a14f (docs: update project README and screenshots)
+
 
 ## Project Structure
 
@@ -113,7 +113,7 @@ ecommerce-order-inventory/
 - JDK 21
 - MySQL Server
 - Node.js and npm
->>>>>>> 714a14f (docs: update project README and screenshots)
+
 
 ## Getting Started
 
@@ -191,16 +191,13 @@ Ensure the frontend API configuration points to the running backend.
 - Introduce Docker-based deployment.
 - Set up CI/CD pipelines for automated builds and deployment.
 - Deploy the application to a cloud platform.
->>>>>>> 714a14f (docs: update project README and screenshots)
+
 
 ## Author
 
 **Motakatla Leela Vardhini**
 
-<<<<<<< HEAD
 B.Tech — Computer Science and Engineering
-=======
-B.Tech Computer Science Student
 
->>>>>>> 714a14f (docs: update project README and screenshots)
+
 
