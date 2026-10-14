@@ -26,7 +26,6 @@ A full-stack e-commerce application built using **Java, Spring Boot, React, and 
 | Maven | Backend build and dependency management |
 | npm | Frontend package management |
 
-=======
 A full-stack e-commerce application built with **Java, Spring Boot, React, and MySQL**, featuring product browsing, authentication, checkout, and order management.
 
 ## Key Features
@@ -122,7 +121,7 @@ cd ecommerce-order-inventory
 
 
 Create a MySQL database and configure the database URL, username, and password in the appropriate configuration file under `backend/src/main/resources/`.
->>>>>>> 714a14f (docs: update project README and screenshots)
+
 
 Keep database credentials and secrets out of version control.
 
