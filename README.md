@@ -160,7 +160,7 @@ Ensure the frontend API configuration points to the running backend.
 
 ## Future Enhancements
 
-<<<<<<< HEAD
+
 - **Payment Gateway Integration:** Support secure online payments and transaction verification.
 - **Advanced Inventory Management:** Add low-stock alerts and inventory movement history.
 - **Admin Dashboard:** Manage products, categories, users, orders, and inventory.
