@@ -71,19 +71,29 @@ MySQL Database
 
 ## Project Structure
 
+## Project Structure
+
 ```text
 ecommerce-order-inventory/
 ├── backend/
 │   ├── src/
 │   ├── pom.xml
 │   └── mvnw.cmd
-├── frontend/
+├── ecommerce-frontend/
 │   ├── public/
-│   │   └── images/
 │   ├── src/
-│   └── package.json
+│   ├── package.json
+│   └── package-lock.json
+├── frontend/
+│   └── public/
+│       └── images/
+├── .gitignore
 └── README.md
 ```
+
+- **Backend:** Java, Spring Boot, REST APIs, JPA, and MySQL integration.
+- **Frontend:** React application and user interface.
+- **Images:** Existing public image assets under `frontend/public/images/`.
 
 *Adjust the directory structure to match your actual project.*
 
