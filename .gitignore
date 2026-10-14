@@ -1,4 +1,4 @@
-# =========================
+﻿# =========================
 # Java / Maven
 # =========================
 target/
@@ -14,8 +14,6 @@ target/
 .env
 .env.*
 !.env.example
-
-# Local Spring configuration
 application-local.properties
 application-local.yml
 application-local.yaml
@@ -27,8 +25,7 @@ application-local.yaml
 *.iml
 *.iws
 *.ipr
-
-.vscode/
+.vscode/*
 !.vscode/extensions.json
 
 # Eclipse / STS
@@ -44,7 +41,7 @@ application-local.yaml
 /nbproject/private/
 /nbbuild/
 /nbdist/
-.nb-gradle/
+/.nb-gradle/
 
 # =========================
 # Node / React
@@ -54,6 +51,7 @@ dist/
 build/
 .cache/
 .parcel-cache/
+.vite/
 
 # =========================
 # OS
@@ -63,11 +61,9 @@ Thumbs.db
 desktop.ini
 
 # =========================
-# Debug / temporary files
+# Temporary files / archives
 # =========================
 maven-debug.txt
-# Local archives and temporary files
 ecommerce-order-inventory.zip
 exc.txt
 sec.txt
-node_modules/
