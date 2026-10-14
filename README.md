@@ -1,5 +1,6 @@
 # E-Commerce Order & Inventory Management System
 
+<<<<<<< HEAD
 A full-stack e-commerce application built using **Java, Spring Boot, React, and MySQL**. The application supports product browsing, shopping cart management, checkout, order processing, order tracking, and inventory management.
 
 ## Key Features
@@ -25,6 +26,27 @@ A full-stack e-commerce application built using **Java, Spring Boot, React, and 
 | MySQL | Relational database |
 | Maven | Backend build and dependency management |
 | npm | Frontend package management |
+=======
+A full-stack e-commerce application built with **Java, Spring Boot, React, and MySQL**, featuring product browsing, authentication, checkout, and order management.
+
+## Key Features
+
+- User authentication and authorization
+- Product listing and product details
+- Shopping cart and checkout
+- Order placement and confirmation
+- Order details and tracking
+- MySQL database integration
+- RESTful API architecture
+
+## Tech Stack
+
+- **Backend:** Java 21, Spring Boot, Spring Data JPA, Hibernate
+- **Frontend:** React, JavaScript, HTML, CSS
+- **Database:** MySQL
+- **Build Tools:** Maven, npm
+- **Version Control:** Git, GitHub
+>>>>>>> 714a14f (docs: update project README and screenshots)
 
 ## Project Structure
 
@@ -82,10 +104,16 @@ ecommerce-order-inventory/
 
 ## Prerequisites
 
+<<<<<<< HEAD
 - Java JDK 21
 - MySQL Server
 - Node.js and npm
 - Git
+=======
+- JDK 21
+- MySQL Server
+- Node.js and npm
+>>>>>>> 714a14f (docs: update project README and screenshots)
 
 ## Getting Started
 
@@ -98,12 +126,15 @@ cd ecommerce-order-inventory
 
 ### 2. Configure MySQL
 
+<<<<<<< HEAD
 Create the database using the name expected by your backend configuration.
+=======
+Create a MySQL database and configure the database URL, username, and password in the appropriate configuration file under `backend/src/main/resources/`.
+>>>>>>> 714a14f (docs: update project README and screenshots)
 
-```sql
-CREATE DATABASE ecommerce_db;
-```
+Keep database credentials and secrets out of version control.
 
+<<<<<<< HEAD
 Configure the database URL, username, and password in the appropriate configuration file under `backend/src/main/resources/`.
 
 Ensure that MySQL is running and the database settings match your application configuration. Do not commit database credentials or secrets to GitHub.
@@ -111,6 +142,11 @@ Ensure that MySQL is running and the database settings match your application co
 ### 3. Run the Backend
 
 Open a terminal in the repository root and run:
+=======
+### 3. Run the Backend
+
+Open a terminal in the repository root:
+>>>>>>> 714a14f (docs: update project README and screenshots)
 
 ```powershell
 cd backend
@@ -121,7 +157,11 @@ The backend runs at `http://localhost:8080` by default, unless configured otherw
 
 ### 4. Run the Frontend
 
+<<<<<<< HEAD
 Open a separate terminal in the repository root and run:
+=======
+Open a separate terminal in the repository root:
+>>>>>>> 714a14f (docs: update project README and screenshots)
 
 ```bash
 cd ecommerce-frontend
@@ -135,6 +175,7 @@ Ensure the frontend API configuration points to the running backend.
 
 ## Future Enhancements
 
+<<<<<<< HEAD
 - **Payment Gateway Integration:** Support secure online payments and transaction verification.
 - **Advanced Inventory Management:** Add low-stock alerts and inventory movement history.
 - **Admin Dashboard:** Manage products, categories, users, orders, and inventory.
@@ -142,10 +183,24 @@ Ensure the frontend API configuration points to the running backend.
 - **Order Cancellation and Returns:** Support cancellations, returns, and refunds.
 - **Performance Optimization:** Introduce Redis caching and optimize database queries.
 - **Deployment and CI/CD:** Deploy to a cloud platform and automate builds and testing.
+=======
+- Add automated unit and integration tests.
+- Implement product search, filtering, and sorting.
+- Integrate a secure payment gateway.
+- Add inventory alerts and stock management improvements.
+- Introduce Docker-based deployment.
+- Set up CI/CD pipelines for automated builds and deployment.
+- Deploy the application to a cloud platform.
+>>>>>>> 714a14f (docs: update project README and screenshots)
 
 ## Author
 
 **Motakatla Leela Vardhini**
 
+<<<<<<< HEAD
 B.Tech — Computer Science and Engineering
+=======
+B.Tech Computer Science Student
+
+>>>>>>> 714a14f (docs: update project README and screenshots)
 
