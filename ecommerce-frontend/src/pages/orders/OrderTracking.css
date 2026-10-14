@@ -1,0 +1,568 @@
+.ot-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 30px 24px 70px;
+  box-sizing: border-box;
+}
+
+.ot-container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.ot-topbar {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.ot-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #374151;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ot-cart-link {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #111827;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.ot-header {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 24px;
+}
+
+.ot-header-left {
+  min-width: 0;
+}
+
+.ot-label {
+  margin-bottom: 8px;
+  color: #737373;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.ot-header h1 {
+  margin: 0;
+  color: #171717;
+  font-size: 38px;
+  line-height: 1.15;
+  font-weight: 750;
+}
+
+.ot-header p {
+  margin: 10px 0 0;
+  color: #737373;
+  font-size: 15px;
+}
+
+.ot-header p strong {
+  color: #171717;
+}
+
+.ot-status {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 14px;
+  border-radius: 6px;
+  background: #e8f7ee;
+  color: #08783f;
+  font-size: 12px;
+  font-weight: 800;
+  border: 1px solid #ccebd8;
+}
+
+.ot-card {
+  width: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+}
+
+.ot-status-card {
+  padding: 28px 32px 30px;
+}
+
+.ot-card-header {
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 20px;
+}
+
+.ot-card-header h2 {
+  margin: 0;
+  color: #171717;
+  font-size: 20px;
+  font-weight: 750;
+}
+
+.ot-card-header p {
+  margin: 6px 0 0;
+  color: #737373;
+  font-size: 13px;
+}
+
+.ot-timeline {
+  width: 100%;
+  padding-top: 26px;
+}
+
+.ot-step {
+  width: 100%;
+  display: flex;
+  min-height: 92px;
+}
+
+.ot-step-marker-column {
+  position: relative;
+  width: 44px;
+  flex: 0 0 44px;
+}
+
+.ot-step-marker {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: #eeeeee;
+  color: #a3a3a3;
+  border: 2px solid #e5e5e5;
+}
+
+.ot-step-marker span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #a3a3a3;
+}
+
+.ot-step-completed
+  .ot-step-marker {
+  background: #119447;
+  border-color: #119447;
+  color: #ffffff;
+}
+
+.ot-step-current
+  .ot-step-marker {
+  box-shadow: 0 0 0 5px #dcfce7;
+}
+
+.ot-step-line {
+  position: absolute;
+  z-index: 1;
+  top: 34px;
+  left: 16px;
+  width: 2px;
+  height: 58px;
+  background: #dedede;
+}
+
+.ot-step-line-active {
+  background: #119447;
+}
+
+.ot-step-content {
+  min-width: 0;
+  flex: 1;
+  padding: 1px 0 28px 10px;
+}
+
+.ot-step-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 34px;
+}
+
+.ot-step-title-row h3 {
+  margin: 0;
+  color: #404040;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.ot-step-completed
+  .ot-step-title-row h3 {
+  color: #171717;
+}
+
+.ot-step-current
+  .ot-step-title-row h3 {
+  color: #08783f;
+}
+
+.ot-current {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 9px;
+  border-radius: 20px;
+  background: #e8f7ee;
+  color: #08783f;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.ot-step-content p {
+  max-width: 700px;
+  margin: 4px 0 0;
+  color: #737373;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.ot-time {
+  display: block;
+  margin-top: 7px;
+  color: #737373;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.ot-summary-card {
+  margin-top: 18px;
+  padding: 24px 32px;
+}
+
+.ot-summary-header h2 {
+  margin: 0;
+  color: #171717;
+  font-size: 20px;
+  font-weight: 750;
+}
+
+.ot-product {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.ot-product-image {
+  width: 76px;
+  height: 76px;
+  flex: 0 0 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #f7f7f7;
+  border: 1px solid #eeeeee;
+  border-radius: 7px;
+}
+
+.ot-product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.ot-product-info {
+  min-width: 0;
+  flex: 1;
+}
+
+.ot-product-info h3 {
+  margin: 0;
+  color: #171717;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.ot-product-info p {
+  margin: 5px 0 0;
+  color: #737373;
+  font-size: 13px;
+}
+
+.ot-product > strong {
+  flex-shrink: 0;
+  color: #171717;
+  font-size: 15px;
+}
+
+.ot-divider {
+  width: 100%;
+  height: 1px;
+  background: #eeeeee;
+  margin: 20px 0 12px;
+}
+
+.ot-summary-row {
+  width: 100%;
+  min-height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #737373;
+  font-size: 13px;
+}
+
+.ot-summary-row strong {
+  color: #171717;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ot-address-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 18px;
+  padding: 24px 32px;
+}
+
+.ot-address-icon {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f5f5f5;
+  color: #404040;
+}
+
+.ot-address-content {
+  min-width: 0;
+  flex: 1;
+}
+
+.ot-address-content h2 {
+  margin: 0 0 14px;
+  color: #171717;
+  font-size: 18px;
+  font-weight: 750;
+}
+
+.ot-address-content strong {
+  display: block;
+  color: #262626;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ot-address-content p {
+  margin: 5px 0 0;
+  color: #737373;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.ot-address-arrow {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: #a3a3a3;
+}
+
+.ot-loading {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #737373;
+  font-size: 14px;
+}
+
+.ot-empty {
+  width: min(500px, 100%);
+  min-height: 70vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ot-empty h1 {
+  margin: 14px 0 8px;
+  color: #171717;
+}
+
+.ot-empty p {
+  margin: 0 0 20px;
+  color: #737373;
+}
+
+.ot-back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  background: #171717;
+  color: #ffffff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .ot-page {
+    padding: 18px 12px 40px;
+  }
+
+  .ot-topbar {
+    margin-bottom: 22px;
+  }
+
+  .ot-back-link span {
+    display: none;
+  }
+
+  .ot-header {
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+
+  .ot-header h1 {
+    font-size: 28px;
+  }
+
+  .ot-header p {
+    font-size: 13px;
+  }
+
+  .ot-status {
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+
+  .ot-status-card {
+    padding: 20px 18px;
+  }
+
+  .ot-card-header h2 {
+    font-size: 18px;
+  }
+
+  .ot-card-header p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .ot-timeline {
+    padding-top: 22px;
+  }
+
+  .ot-step {
+    min-height: 88px;
+  }
+
+  .ot-step-marker-column {
+    width: 40px;
+    flex-basis: 40px;
+  }
+
+  .ot-step-marker {
+    width: 32px;
+    height: 32px;
+  }
+
+  .ot-step-line {
+    left: 15px;
+    top: 32px;
+    height: 56px;
+  }
+
+  .ot-step-content {
+    padding-left: 7px;
+    padding-bottom: 25px;
+  }
+
+  .ot-step-title-row {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .ot-step-title-row h3 {
+    font-size: 14px;
+  }
+
+  .ot-step-content p {
+    font-size: 12px;
+  }
+
+  .ot-summary-card {
+    padding: 20px 18px;
+  }
+
+  .ot-summary-header h2 {
+    font-size: 18px;
+  }
+
+  .ot-product {
+    gap: 12px;
+  }
+
+  .ot-product-image {
+    width: 64px;
+    height: 64px;
+    flex-basis: 64px;
+  }
+
+  .ot-product-info h3 {
+    font-size: 13px;
+  }
+
+  .ot-product-info p {
+    font-size: 12px;
+  }
+
+  .ot-product > strong {
+    font-size: 13px;
+  }
+
+  .ot-address-card {
+    padding: 20px 18px;
+    gap: 12px;
+  }
+
+  .ot-address-icon {
+    width: 36px;
+    height: 36px;
+    flex-basis: 36px;
+  }
+
+  .ot-address-content h2 {
+    font-size: 17px;
+  }
+}
